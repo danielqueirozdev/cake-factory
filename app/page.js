@@ -27,11 +27,11 @@ export default function Home() {
   }, [])
 
   const produtos = [
-    { name: 'Bolo de Chocolate', desc: 'Massa fofinha com cobertura de ganache artesanal e raspas de chocolate belga.', price: 'R$89', img: '/bolo-chocolate.png' },
-    { name: 'Bolo de Morango', desc: 'Camadas de chantilly fresco com morangos selecionados e calda especial.', price: 'R$94', img: '/bolo-morango.png' },
-    { name: 'Bolo Premium', desc: 'Nossa criação exclusiva com ingredientes importados e decoração artesanal.', price: 'R$149', img: '/bolo-premium.png' },
-    { name: 'Cupcakes', desc: 'Caixinha com 6 unidades — sabores variados com cobertura de buttercream.', price: 'R$52', img: '/cupcake.png' },
-    { name: 'Donuts', desc: 'Caixa com 4 donuts artesanais com coberturas coloridas e recheios especiais.', price: 'R$38', img: '/donuts.png' },
+    { name: 'Bolo de Chocolate', desc: 'Massa fofinha com cobertura de ganache artesanal e raspas de chocolate belga.', price: 'R$89', img: '/bolo-chocolate.jpg' },
+    { name: 'Bolo de Morango', desc: 'Camadas de chantilly fresco com morangos selecionados e calda especial.', price: 'R$94', img: '/bolo-morango.jpg' },
+    { name: 'Bolo Premium', desc: 'Nossa criação exclusiva com ingredientes importados e decoração artesanal.', price: 'R$149', img: '/bolo-premium.jpg' },
+    { name: 'Cupcakes', desc: 'Caixinha com 6 unidades — sabores variados com cobertura de buttercream.', price: 'R$52', img: '/cupcake.jpg' },
+    { name: 'Donuts', desc: 'Caixa com 4 donuts artesanais com coberturas coloridas e recheios especiais.', price: 'R$38', img: '/donuts.jpg' },
   ]
 
   const faqs = [
@@ -184,7 +184,7 @@ export default function Home() {
       <section id="processo">
         <div className="proc-inner">
           <div className="proc-img">
-            <img src="/preparo.png" alt="Preparo artesanal" />
+            <img src="/preparo.jpg" alt="Preparo artesanal" />
           </div>
           <div className="proc-content">
             <div className="sec-tag reveal">✨ Nosso Processo</div>
@@ -231,7 +231,7 @@ export default function Home() {
             </div>
           </div>
           <div className="ingr-img">
-            <img src="/ingredientes.png" alt="Ingredientes frescos e selecionados" />
+            <img src="/ingredientes.jpg" alt="Ingredientes frescos e selecionados" />
           </div>
         </div>
       </section>
